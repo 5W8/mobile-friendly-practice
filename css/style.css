@@ -35,3 +35,20 @@ h2 {
     color:rgb(53, 134, 145);
 }
 
+@media screen and (max-width: 400px) {
+   svg{
+        background-color:blue;
+}
+}
+
+@media screen and (min-width: 769px) {
+    linearGradient{
+         fill:red;
+ }
+}
+
+ @media screen and (min-width: 1025px) {
+    svg{
+         background-color:yellow;
+ }
+}
